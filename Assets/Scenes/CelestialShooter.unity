@@ -225,7 +225,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 7
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -348,13 +348,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2129895787027633203, guid: 2820932fa7f176a4a9e3c1210582d351, type: 3}
+      propertyPath: lerpDuration
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2129895787027633203, guid: 2820932fa7f176a4a9e3c1210582d351, type: 3}
+      propertyPath: OrthographicCamera
+      value: 
+      objectReference: {fileID: 519420031}
     - target: {fileID: 3759479288841110625, guid: 2820932fa7f176a4a9e3c1210582d351, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.9279575
+      value: 2.109
       objectReference: {fileID: 0}
     - target: {fileID: 3759479288841110625, guid: 2820932fa7f176a4a9e3c1210582d351, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.029320836
+      value: -1.049
       objectReference: {fileID: 0}
     - target: {fileID: 3759479288841110625, guid: 2820932fa7f176a4a9e3c1210582d351, type: 3}
       propertyPath: m_LocalPosition.z
@@ -391,6 +399,14 @@ PrefabInstance:
     - target: {fileID: 4538298978392959444, guid: 2820932fa7f176a4a9e3c1210582d351, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 5388320659560068733, guid: 2820932fa7f176a4a9e3c1210582d351, type: 3}
+      propertyPath: m_Size.x
+      value: 1.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5388320659560068733, guid: 2820932fa7f176a4a9e3c1210582d351, type: 3}
+      propertyPath: m_Size.y
+      value: 1.7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
